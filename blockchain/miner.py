@@ -88,5 +88,7 @@ if __name__ == '__main__':
         if data.get('message') == 'New Block Forged':
             coins_mined += 1
             print("Total coins mined: " + str(coins_mined))
+            print("Response: " + data.get('message'))
         else:
             print(data.get('message'))
+        print("data: " + str(data))
