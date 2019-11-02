@@ -28,6 +28,7 @@ class TestEx2(unittest.TestCase):
         ticket_8 = Ticket("ORD", "NONE")
         ticket_9 = Ticket("SLC", "PIT")
         ticket_10 = Ticket("BHM", "FLG")
+        print(f"ticket_1: {ticket_1.destination} ")
 
         tickets = [ticket_1, ticket_2, ticket_3, ticket_4, ticket_5,
                    ticket_6, ticket_7, ticket_8, ticket_9, ticket_10]
